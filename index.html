@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <title>Projekt_7 ToDoList</title>
+</head>
+
+<body>
+    <div class="todo">
+        <div class="header">
+            <h1>To Do List</h1>
+            <input type="text" class="todoInput" placeholder="Wpisz treść zadania...">
+            <button class="addBtn">Add</button>
+        </div>
+        <div class="todoList">
+            <h3>Lista zadań:</h3>
+            <p class="alertInfo">Brak zadań na liście.</p>
+            <ul>
+            </ul>
+        </div>
+    </div>
+
+    <div class="popup">
+        <h3>Edytuj zadanie:</h3>
+        <div class="popupBody">
+            <p class="popupInfo"></p>
+            <input type="text" class="popupInput" placeholder="Wprowadź nową treść zadania...">
+            <button class="popupBtn accept">Zatwierdź</button>
+            <button class="popupBtn cancel">Anuluj</button>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
